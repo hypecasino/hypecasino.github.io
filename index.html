@@ -583,29 +583,5 @@
         };
         feather.replace();
     </script>  
-    <script src="vanta.globe.min.js"></script>
-    <script>
-        VANTA.GLOBE({
-            el: "#vanta-bg",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0xec4899,
-            color2: 0x9333ea,
-            size: 1.2,
-            backgroundColor: 0x0b0c1e
-        });
-AOS.init({ 
-    once: true, 
-    duration: 600,
-    disable: function() {
-        return window.innerWidth < 1024;
-    }
-});
-    </script>
 </body>
 </html>
